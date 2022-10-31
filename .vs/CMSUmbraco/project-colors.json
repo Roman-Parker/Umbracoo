@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e0e18710-a647-40a3-ba01-69c874feb5c2": {
+      "ProjectGuid": "e0e18710-a647-40a3-ba01-69c874feb5c2",
+      "DisplayName": "CMSUmbraco",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

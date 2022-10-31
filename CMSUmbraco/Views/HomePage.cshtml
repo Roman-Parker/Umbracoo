@@ -1,0 +1,15 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    Layout = null;
+    var model = CMSUmbraco.Datamanager.GetStationsAsync();
+}
+<div>
+    <h1>@Model.Value("title")</h1>
+
+    @foreach (var station in Model.Result.stations)
+    {
+        <p>@station.title</p>
+    }
+</div>
